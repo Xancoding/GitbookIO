@@ -3,7 +3,7 @@
 ## 部分知识点
 
 1. 一个段的起始地址必定是 16 的倍数 -- CS \* 10H
-2. 一个段的最大长度是 64KB -- IP 寄存器长度为 16 位，$2^{16} = 64$
+2. 一个段的最大长度是 64KB -- IP 寄存器长度为 16 位
 3.  A
 
     <figure><img src="https://bu.dusays.com/2023/04/18/643e9450302b8.png" alt=""><figcaption></figcaption></figure>

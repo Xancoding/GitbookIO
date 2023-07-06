@@ -1344,8 +1344,7 @@ Flag 寄存器：0000 0000 0100 0101
 
 应用举例：在屏幕的笫 12 行，显示 data 段中以 0 结尾的宇符串 。
 
-```asmatmel
-assume cs:code
+<pre class="language-asmatmel"><code class="lang-asmatmel">assume cs:code
 
 data segment
 
@@ -1355,42 +1354,45 @@ data ends
 
 code segment
 
-start: mov ax,data
+start: 
+        mov ax,data
 
-mov ds,ax
+<strong>        mov ds,ax
+</strong>        
+        mov si,0
+        
+        mov ax,0b800h
+        
+        mov es,ax
+        
+        mov di,12*160
 
-mov si,0
+s: 
+        cmp byte ptr [si],0
 
-mov ax,0b800h
+        je ok ; 如果是 0 跳出循环
 
-mov es,ax
+        mov al,[si]
+        
+        mov es:[di],al
+        
+        inc si
+        
+        add di,2
+        
+        mov bx,offset s-offset ok ; 设置从标号 ok 到标号 s 的转移位移
+        
+        int 7ch ; 转移到标号 s 处
 
-mov di,12*160
-
-s: cmp byte ptr [si],0
-
-je ok ; 如果是 0 跳出循环
-
-mov al,[si]
-
-mov es:[di],al
-
-inc si
-
-add di,2
-
-mov bx,offset s-offset ok ; 设置从标号 ok 到标号 s 的转移位移
-
-int 7ch ; 转移到标号 s 处
-
-ok: mov ax,4c00h
-
-int 21h
+ok: 
+        mov ax,4c00h
+        
+        int 21h
 
 code ends
 
 end start
-```
+</code></pre>
 
 `7ch` 中断例程如下：
 
@@ -1434,14 +1436,14 @@ start:      ; 7cH 中断例程的安装程序
 ; 返回值：无
 ;-----------
 lp:
-    push bp         ; 将 bp 这个 ss 栈的偏址保存
-    mov bp, sp      ; 将当前栈顶指针值送入到 bp
-    add [bp+2], bx  ; 修改 ss 栈中的从栈顶向下第 2 个单元的值，即 IP 的值
+            push bp         ; 将 bp 这个 ss 栈的偏址保存
+            mov bp, sp      ; 将当前栈顶指针值送入到 bp
+            add [bp+2], bx  ; 修改 ss 栈中的从栈顶向下第 2 个单元的值，即 IP 的值
 lpret:
-    pop bp          ; 恢复 bp 值
-    iret            ; 返回到调用处。
+            pop bp          ; 恢复 bp 值
+            iret            ; 返回到调用处。
 lpend:
-    nop             ; 代码段结尾，便于计算 7cH 例程的长度。   
+            nop             ; 代码段结尾，便于计算 7cH 例程的长度。   
 
 code ends
 
@@ -1600,7 +1602,7 @@ code segment
 
 	mov cx, 40H       ;循环 64 次
 
-s:  mov ds:[bx], bx   ;((ds) * 16 + bx)) = bx
+s:  	mov ds:[bx], bx   ;((ds) * 16 + bx)) = bx
 	inc bx
 	loop s
 
@@ -1949,15 +1951,15 @@ start:
 		add si, bx
 
 		mov dx, [si+86]    ; 写入人均收入		
-	    mov ax, [si+84]         
-        div word ptr es:[di+10]   
-        mov es:[di+13], ax         
-        mov byte ptr es:[di+15], 20h
-      			             
-        add si, 4          ; data 年份偏移量（年份 4 字节  收入 4 字节）
-        add di, 16         ; table 偏移量
-        add bx, 2 		   ; data 雇员偏移量（雇员 2 字节）        
-        loop s		
+	    	mov ax, [si+84]         
+	        div word ptr es:[di+10]   
+	        mov es:[di+13], ax         
+	        mov byte ptr es:[di+15], 20h
+	      			             
+	        add si, 4          ; data 年份偏移量（年份 4 字节  收入 4 字节）
+	        add di, 16         ; table 偏移量
+	        add bx, 2 		   ; data 雇员偏移量（雇员 2 字节）        
+	        loop s		
 
 		mov ax, 4c00h 
 		int 21h

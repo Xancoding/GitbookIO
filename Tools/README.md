@@ -1,5 +1,12 @@
 # Tools Resource
 
+## C++
+
+### Makefile[¶](https://seisman.github.io/how-to-write-makefile/index.html#makefile)
+
+* &#x20;[跟我一起写Makefile](https://seisman.github.io/how-to-write-makefile/index.html)[¶](https://seisman.github.io/how-to-write-makefile/index.html#makefile)
+* \[ ][Modern CMake By Example](https://github.com/stdrc/modern-cmake-by-example)
+
 ## Draw Images for Blog
 
 * [Sketch](https://www.lucidchart.com/pages/) UI 设计工具

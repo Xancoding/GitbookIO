@@ -35,14 +35,11 @@
 
 * [IHateRegex](https://ihateregex.io/) 正则可视化工具，提问获取答案
 * [Regulex](https://jex.im/regulex/#!flags=\&re=%5E\(a%7Cb\)\*%3F%24) 正则可视化工具
-* [正则可视化](https://wangwl.net/r/vr) 正则可视化工具，正则语义化
 * [regex101](https://regex101.com/) 在线正则测试工具
-* [regexgen](https://npm.runkit.com/regexgen) 生成与一组字符串匹配的正则表达式
 * [any-rule](https://any86.github.io/any-rule) 正则大全
-
-***
-
-* [第十一章、正規表示法與文件格式化處理](https://linux.vbird.org/linux\_basic/centos7/0330regularex.php)
+* [**交互式正则表达式教程**](https://regexone.com/)
+  1. [**problem**](https://regexone.com/problem/matching\_decimal\_numbers)
+  2. [**Using Regular Expressions in Python 3**](https://regexone.com/references/python)
 
 ***
 

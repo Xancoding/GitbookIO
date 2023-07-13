@@ -4,11 +4,6 @@
 * [VIM 大冒险 - Game](https://vim-adventures.com/)
 * [**Vim 从入门到精通**](https://github.com/wsdjeg/vim-galore-zh\_cn)
 * [**LazyVim-Keymaps**](https://www.lazyvim.org/keymaps)
-* NeoVim\&LazyVim
-  1. [Lazyvim配置教程](https://www.bilibili.com/video/BV1ds4y1P7Rs/?spm\_id\_from=333.337.search-card.all.click\&vd\_source=ae16ff6478eb15c1b87880540263910b)
-  2. [NeoVim](https://www.bilibili.com/video/BV1zY4y1Z7FR/?vd\_source=ae16ff6478eb15c1b87880540263910b)
-  3. [ChatGPT + Neovim](https://www.bilibili.com/video/BV18o4y1b7D3/?spm\_id\_from=333.999.0.0\&vd\_source=ae16ff6478eb15c1b87880540263910b)
-  4. [_Configuration_](https://github.com/jackMort/ChatGPT.nvim#configuration)
 
 ***
 

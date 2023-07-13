@@ -1,4 +1,4 @@
-# CS Resource
+# 🫐 CS Resource
 
 ## CS Resource
 
@@ -7,8 +7,14 @@
   * [图解网络](https://xiaolincoding.com/network/)
   * [图解系统](https://xiaolincoding.com/os/)
 * [后端开发核心知识](https://github.com/linw7/Skill-Tree)
+* [How to Properly Use a Search Engine](https://www.instructables.com/How-to-Properly-Use-a-Search-Engine/)
 
 ## C++
+
+* &#x20;[**跟我一起写Makefile**](https://seisman.github.io/how-to-write-makefile/index.html)[**¶**](https://seisman.github.io/how-to-write-makefile/index.html#makefile)
+* [**Modern CMake By Example**](https://github.com/stdrc/modern-cmake-by-example)
+
+***
 
 * [【中英字幕】C++ | The Cherno](https://www.bilibili.com/video/BV1Ay4y1i7Z6/?vd\_source=ae16ff6478eb15c1b87880540263910b)
 * [C++标准 11-14 | 侯捷](https://www.youtube.com/watch?v=4HZpY7X9RG4\&list=PLRTJhCIMo8HM16EbfTa4IgvwgLbj5z\_9M\&index=1)

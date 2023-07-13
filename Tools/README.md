@@ -1,12 +1,5 @@
 # 🛠 Tools Resource
 
-## C++
-
-### Makefile[¶](https://seisman.github.io/how-to-write-makefile/index.html#makefile)
-
-* &#x20;[**跟我一起写Makefile**](https://seisman.github.io/how-to-write-makefile/index.html)[**¶**](https://seisman.github.io/how-to-write-makefile/index.html#makefile)
-* [**Modern CMake By Example**](https://github.com/stdrc/modern-cmake-by-example)
-
 ## LaTex
 
 > `LaTeX`是一种基于`ΤΕΧ`的排版系统，常被用于排版期刊文章、书籍、学位论文

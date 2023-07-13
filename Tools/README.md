@@ -4,8 +4,8 @@
 
 ### Makefile[¶](https://seisman.github.io/how-to-write-makefile/index.html#makefile)
 
-* &#x20;[跟我一起写Makefile](https://seisman.github.io/how-to-write-makefile/index.html)[¶](https://seisman.github.io/how-to-write-makefile/index.html#makefile)
-* \[ ][Modern CMake By Example](https://github.com/stdrc/modern-cmake-by-example)
+* &#x20;[**跟我一起写Makefile**](https://seisman.github.io/how-to-write-makefile/index.html)[**¶**](https://seisman.github.io/how-to-write-makefile/index.html#makefile)
+* [**Modern CMake By Example**](https://github.com/stdrc/modern-cmake-by-example)
 
 ## Draw Images for Blog
 
@@ -83,6 +83,7 @@
 
 ***
 
+* [LaTeX 入门](https://docs.net9.org/basic/latex/)
 * [【LaTeX】新手教程：从入门到日常使用](https://zhuanlan.zhihu.com/p/456055339)
 * [【LaTeX】针对萌新自学者的入门教程](https://zhuanlan.zhihu.com/p/521649367)
 

@@ -1,9 +1,18 @@
 # Vim
 
 * [第 3 讲 - 编辑器 (Vim) | The missing semester of your CS education](https://missing-semester-cn.github.io/2020/editors/)
-* [VIM 大冒险 - Game](https://vim-adventures.com/)
+* [21世纪最强代码编辑器：NeoVim ——就是这些设置让它变](https://www.bilibili.com/video/BV1y4411C7pE/?spm\_id\_from=333.999.0.0\&vd\_source=ae16ff6478eb15c1b87880540263910b)[成了编辑器之鬼 【附配置与插件教程】](https://www.bilibili.com/video/BV1y4411C7pE/?spm\_id\_from=333.999.0.0\&vd\_source=ae16ff6478eb15c1b87880540263910b)
 * [**Vim 从入门到精通**](https://github.com/wsdjeg/vim-galore-zh\_cn)
 * [**LazyVim-Keymaps**](https://www.lazyvim.org/keymaps)
+* **vimtutor 是一个 Vim 安装时自带的教程 ，`vimtutor -g zh` for Chinese learner.**
+* [**VimAwesome**](https://vimawesome.com/)    Vim 插件
+* [**Vim Adventures**](https://vim-adventures.com/) **是一个学习使用 Vim 的游戏**
+* [**Vim Tips Wiki**](http://vim.wikia.com/wiki/Vim\_Tips\_Wiki)
+* [**Vim Advent Calendar**](https://vimways.org/2019/) **有很多 Vim 小技巧**
+* [**Vim Golf**](http://www.vimgolf.com/) **是用 Vim 的用户界面作为程序语言的** [**code golf**](https://en.wikipedia.org/wiki/Code\_golf)
+* [**Vi/Vim Stack Exchange**](https://vi.stackexchange.com/)
+* [**Vim Screencasts**](http://vimcasts.org/)
+* [**Practical Vim**](https://pragprog.com/titles/dnvim2/)**（书籍）**
 
 ***
 

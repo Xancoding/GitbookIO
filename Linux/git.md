@@ -13,13 +13,13 @@
 
 ***
 
-#### Git是什么？
+## Git是什么？
 
 > **Git是一个开源的分布式版本控制系统，可以有效、高速地处理从很小到非常大的项目版本管理**
 
-#### Git常用命令
+## Git常用命令
 
-**常用命令**
+### **常用命令**
 
 1. `git add XX`：将`XX`文件添加到暂存区
 2. `git commit -m "给自己看的备注信息"`：将暂存区的内容提交到当前分支
@@ -32,13 +32,13 @@
 8. **有时候修改了本地工作目录（通常也叫工作区）的文件，如何放弃本地更改（尚未暂存）？**
    * **`git checkout XX`或`git restore XX`：将`XX`文件尚未加入暂存区的修改全部撤销**
 
-**Git 全局设置**
+### **Git 全局设置**
 
 1. `git config --global user.name xxx`：设置全局用户名，信息记录在`~/.gitconfig`文件中
 2. `git config --global user.email xxx@xxx.com`：设置全局邮箱地址，信息记录在`~/.gitconfig`文件中
 3. `git init`：将当前目录配置成`git`仓库，信息记录在隐藏的`.git`文件夹中
 
-**Git 查看命令**
+### **Git 查看命令**
 
 1. `git diff XX`：查看`XX`文件相对于暂存区修改了哪些内容
 2. `git status`：查看仓库状态
@@ -48,20 +48,22 @@
 6. `git branch`：查看所有分支和当前所处分支
 7. `git pull` ：将远程仓库的当前分支与本地仓库的当前分支合并
 
-**Git 删除命令**
+### **Git 删除命令**
 
 1. `git rm --cached XX`：将文件从仓库索引目录中删掉，不希望管理这个文件
 2. `git restore --staged xx`：将`xx`从暂存区里移除
 3. `git checkout — XX`或`git restore XX`：将`XX`文件尚未加入暂存区的修改全部撤销
 
-**Git 代码回滚**
+### **Git 代码回滚**
 
 1. `git reset --hard HEAD^`或`git reset --hard HEAD~` ：将代码库回滚到上一个版本
 2. `git reset --hard HEAD^^`：往上回滚两次，以此类推
 3. `git reset --hard HEAD~100`：往上回滚100个版本
 4. `git reset --hard 版本号`：回滚到某一特定版本
 
-**Git 远程仓库**
+### **Git 远程仓库**
+
+正常的推送更改流程为：先 Add 和 Commit 本地修改，然后拉取远端更改，如果此时出现了合并冲突，解决合并冲突。然后，在合并冲突解决后推送更改。
 
 1. `git remote add origin git@git.acwing.com:xxx/XXX.git`：将本地仓库关联到远程仓库
 2. `git push -u (第一次需要-u以后不需要)` ：将当前分支推送到远程仓库
@@ -75,7 +77,7 @@
 10. `git branch --set-upstream-to=origin/branch_name1 branch_name2`：将远程的
 11. `branch_name1`分支与本地的`branch_name2`分支对应
 
-**Git 分支命令**
+### **Git 分支命令**
 
 1. `git branch branch_name`：创建新分支
 2. `git branch`：查看所有分支和当前所处分支
@@ -91,7 +93,7 @@
 12. `git branch --set-upstream-to=origin/branch_name1 branch_name2`：将远程的
 13. `branch_name1`分支与本地的`branch_name2`分支对应
 
-**Git stash 暂存**
+### **Git stash 暂存**
 
 1. `git stash`：将工作区和暂存区中尚未提交的修改存入栈中
 2. `git stash apply`：将栈顶存储的修改恢复到当前分支，但不删除栈顶元素
@@ -99,7 +101,7 @@
 4. `git stash pop`：将栈顶存储的修改恢复到当前分支，同时删除栈顶元素
 5. `git stash list`：查看栈中所有元素
 
-#### Git更换远程仓库地址
+### Git更换远程仓库地址
 
 ```csharp
 git remote -v  # 查看远端地址
@@ -109,7 +111,7 @@ git remote add origin https://github.com/xx/xx.git （新地址） # 重新添�
 git push --set-upstream origin master
 ```
 
-#### 本地项目上传到GitHub
+### 本地项目上传到GitHub
 
 1. 配置`ssh-key`实现本地与`Git`服务器免密交互
 
@@ -132,7 +134,7 @@ git remote add origin https://github.com/xxx/XXX.git  # 建立连接
 git push -u origin master
 ```
 
-#### .gitignore的作用
+### .gitignore的作用
 
 **工程常识：缓存文件，可执行文件，编译文件 不要传到自己的 git 项目里**
 

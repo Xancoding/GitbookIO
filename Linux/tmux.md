@@ -6,20 +6,20 @@
 
 ***
 
-#### Tmux 是什么？
+## Tmux 是什么？
 
 > **`Tmux` 是一个用于在终端窗口中运行多个终端会话的工具，即终端复用软件（terminal multiplexer）**
 >
 > **远程 `SSH` 访问服务器进行工作时。即使非正常掉线，它能保存当前工作状态，并保证当前任务继续运行。**
 
-#### Tmux && Session && Window && Pane
+## Tmux && Session && Window && Pane
 
 * 一个`tmux` 可以有好多个`session`(会话)
 * 一个`session`可以有好多个`window`(窗口)
 * 一个`window`可以有好多个`pane`(面板)
 * 一个`session`里不超过10个`window`是最方便的：可以用0到9迅速切换
 
-#### Tmux常用命令
+## Tmux常用命令
 
 > **Ac-Terminal 下前缀键被修改成了 Ctrl + a，一般的默认情况下是 Ctrl + b**
 

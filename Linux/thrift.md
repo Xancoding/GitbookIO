@@ -7,7 +7,7 @@
 
 ***
 
-#### Thrift是什么？
+## Thrift是什么？
 
 > **Thrift是一个轻量级、跨语言的远程过程服务调用（RPC）框架**
 >
@@ -15,9 +15,9 @@
 >
 > **Thrift用于跨语言服务开发，它将软件栈和代码生成引擎结合在一起，以构建在 C++、Java、Python、PHP、Ruby、Erlang、Perl、Haskell、C#、Cocoa、JavaScript、Node. Js、Smalltalk、OCaml 和 Delphi 等语言之间高效、无缝地工作的服务**
 
-#### 例：实现一个游戏的匹配服务
+## 例：实现一个游戏的匹配服务
 
-**基本框架**
+### **基本框架**
 
 1. 游戏应用端 `game`（Python3）
    1. 客户端：与 匹配系统服务器 的服务端交互
@@ -27,7 +27,7 @@
 3. 数据存储服务器（已经实现）
    1. 服务端：与 匹配系统服务器 的客户端交互
 
-**文件结构**
+### **文件结构**
 
 ```sh
 |-- README.md
@@ -69,7 +69,7 @@
     `-- save.thrift
 ```
 
-**实现过程**
+### **实现过程**
 
 1. 定义接口 (`thrift` 文件夹用于存放接口 )
 2.  完成 `Server` 端
@@ -105,9 +105,9 @@
 
 * 注意：先运行服务器后，客户端才能正常运行
 
-**Thrift 接口**
+### **Thrift 接口**
 
-**Match.thrift**
+#### **Match.thrift**
 
 ```
 namespace cpp match_service
@@ -122,7 +122,7 @@ service Match {
 }
 ```
 
-**Save.thrift**
+#### **Save.thrift**
 
 ```
 namespace cpp save_service
@@ -137,9 +137,9 @@ service Save {
 }
 ```
 
-**各版本预览**
+### **各版本预览**
 
-**Match\_server:1.0**
+#### **Match\_server:1.0**
 
 * `match_client`：创建固定的`User`
 
@@ -230,7 +230,7 @@ int main(int argc, char **argv) {
 }
 ```
 
-**Match\_server:2.0**
+#### **Match\_server:2.0**
 
 * `match_client`：根据标准输入来创建`User`
 
@@ -406,7 +406,7 @@ int main(int argc, char **argv) {
 }
 ```
 
-**Match\_server:3.0**
+#### **Match\_server:3.0**
 
 * `save_client`：因为一个节点只能由一个`main`方法作为程序的入口，所以匹配系统中的客户端和服务端写在同一个`main`方法中
 
@@ -603,7 +603,7 @@ int main(int argc, char **argv) {
 }
 ```
 
-**Match\_server:4.0**
+#### **Match\_server:4.0**
 
 * `match_server`：随时间扩大匹配域，每一单位的 `wt` 会扩大 $50$ 分 的匹配域
 
@@ -775,7 +775,7 @@ int main(int argc, char **argv) {
 }
 ```
 
-**Usage**
+### **Usage**
 
 ```sh
 # 启动服务端
@@ -799,6 +799,6 @@ Match Result: 1 2
 success
 ```
 
-**项目地址**
+### **项目地址**
 
 * [Learning-Thrift](https://github.com/Xancoding/Learning-Thrift)

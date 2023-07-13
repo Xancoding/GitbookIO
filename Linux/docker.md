@@ -5,11 +5,11 @@
 
 ***
 
-#### Docker是什么？
+## Docker是什么？
 
 > **Docker 是一个开源的应用容器引擎，让开发者可以打包他们的应用以及依赖包到一个可移植的容器中,然后发布到任何流行的Linux或Windows操作系统的机器上**
 
-#### Docker常用命令
+## Docker常用命令
 
 * `镜像（images）`
   1. `docker images`：列出本地所有镜像
@@ -33,7 +33,7 @@
   7. `docker attach CONTAINER`：进入容器
      * 先按`Ctrl-p`，再按`Ctrl-q`可以挂起容器
 
-#### Docker环境配置
+## Docker环境配置
 
 1. `scp django_lesson_1_0.tar server`：将`docker压缩包`传至云服务器
 2. `ssh server`：免密登录至云服务器
@@ -44,7 +44,7 @@
 7. `usermod -aG sudo acs`：为`acs`用户分配`sudo`权限
 8. `scp .bashrc .vimrc .tmux.conf django:`：将本地服务器的`bash`&`vim`&`tmux`配置文件传至`docker 容器`
 
-#### Docker项目迁移
+## Docker项目迁移
 
 第一步，登录容器，关闭所有运行中的任务
 

@@ -1,12 +1,15 @@
 # Git
 
 * [Git | AcWing Linux 基础课](https://www.acwing.com/file\_system/file/content/whole/index/content/2932078/)
-* [Git从放弃到入门](https://juejin.cn/column/6969263852206686221)
-  * [Git从放弃到入门：状态与阶段](https://juejin.cn/post/6973299611536457742)
-  * [**Git从放弃到入门：撤销操作**](https://juejin.cn/post/6974039503056928776)
 * [Git 原理入门](https://www.ruanyifeng.com/blog/2018/10/git-internals.html)
-* [Learn Git Braching - Game](https://learngitbranching.js.org/?locale=zh\_CN)
-* [Pro Git Online](https://git-scm.com/book/zh/v2)
+* [**Learn Git Braching - Game**](https://learngitbranching.js.org/?locale=zh\_CN)  通过基于浏览器的游戏来学习 Git&#x20;
+* [**Pro Git Online**](https://git-scm.com/book/zh/v2)  **强烈推荐**！学习前五章的内容可以教会您流畅使用 Git 的绝大多数技巧，因为您已经理解了 Git 的数据模型。后面的章节提供了很多有趣的高级主题。
+* [**Visualizing Git Concepts with D3**](http://onlywei.github.io/explain-git-with-d3/) 借助**可视化**直观地理解一些基本的 git 概念
+* [Oh Shit, Git!?!](https://ohshitgit.com/)   简短的介绍了如何从 Git 错误中恢复；
+* [Git for Computer Scientists](https://eagain.net/articles/git-for-computer-scientists/)   简短的介绍了 Git 的数据模型，包含较少的伪代码以及大量的精美图片
+* [Git from the Bottom Up](https://jwiegley.github.io/git-from-the-bottom-up/)  详细的介绍了 Git 的实现细节，而不仅仅局限于数据模型
+* [How to explain git in simple words](https://smusamashah.github.io/blog/2017/10/14/explain-git-in-simple-words)
+* [A Visual Git Reference](https://marklodato.github.io/visual-git-guide/index-en.html)
 
 ***
 
@@ -131,8 +134,8 @@ git push -u origin master
 
 #### .gitignore的作用
 
-> **工程常识：缓存文件，可执行文件，编译文件 不要传到自己的 git 项目里**
->
-> **.gitignore的作用就是帮助我们在git add时将我们指定的一些文件自动排除在外，不提交到git当中**
->
-> **在Git工作区的根目录下创建一个特殊的`.gitignore`文件，然后把要忽略的文件名填进去，Git就会自动忽略这些文件**
+**工程常识：缓存文件，可执行文件，编译文件 不要传到自己的 git 项目里**
+
+**.gitignore的作用就是帮助我们在git add时将我们指定的一些文件自动排除在外，不提交到git当中**
+
+**在Git工作区的根目录下创建一个特殊的`.gitignore`文件，然后把要忽略的文件名填进去，Git就会自动忽略这些文件**

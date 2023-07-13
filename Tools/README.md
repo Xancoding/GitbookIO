@@ -56,6 +56,9 @@
 * [Markdown - All You Need to Know](http://haoeric.github.io/markdown-grammar/#fnref:1)
 * [Markdown 官方教程](https://markdown.com.cn/)
 * [Markdown 指南中文版](https://www.markdown.xyz/)
+* 菜鸟教程 [https://www.runoob.com/markdown/md-tutorial.html](https://www.runoob.com/markdown/md-tutorial.html)
+* **（推荐学习）**公式编辑教程 [https://www.jianshu.com/p/25f0139637b7](https://www.jianshu.com/p/25f0139637b7)
+* 绘制流程图、时序图、甘特图 [https://www.jianshu.com/p/6dbcc3aff98b](https://www.jianshu.com/p/6dbcc3aff98b)
 
 ***
 

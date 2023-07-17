@@ -2,6 +2,23 @@
 
 ## CS Resource
 
+* [酒井科协暑培 2023](https://summer23.net9.org/)
+  * [基础](https://summer23.net9.org/basic/#track)
+    * [Linux & Git](https://summer23.net9.org/basic/linux/)
+    * [Web](https://summer23.net9.org/basic/web/)
+    * [数据库 & SQL](https://summer23.net9.org/basic/sql/)
+    * [Python](https://summer23.net9.org/basic/python/#python)
+  * [AI track](https://summer23.net9.org/ai/)
+    * [数据分析 & NumPy](https://summer23.net9.org/ai/numpy/)
+    * [神经网络 & PyTorch](https://summer23.net9.org/ai/pytorch/)
+  * [后端 Track](https://summer23.net9.org/backend/)
+    * [Django](https://summer23.net9.org/backend/django/)
+    * [Docker](https://summer23.net9.org/backend/docker/)
+    * [爬虫](https://summer23.net9.org/backend/crawler/)
+  * [前端 Track](https://summer23.net9.org/frontend/)
+    * [JS & TS](https://summer23.net9.org/frontend/js-ts/)
+    * [React](https://summer23.net9.org/frontend/react/)
+* 📖 [计算机系学生科协技能引导文档](https://docs.net9.org/)
 * [CS自学指南](https://csdiy.wiki/CS%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92/)
 * [小林 x 图解计算机基础](https://xiaolincoding.com/)
   * [图解网络](https://xiaolincoding.com/network/)

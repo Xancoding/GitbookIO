@@ -1,5 +1,8 @@
 # 🍉 Config new project
 
+* [https://www.learncpp.com/](https://www.learncpp.com/)
+* [https://github.com/Xancoding/Learning-Cpp](https://github.com/Xancoding/Learning-Cpp)
+
 1. 当您在 IDE 中创建新项目时，大多数 IDE 会为您设置两种不同的构建配置：发布配置和调试配置，开发程序时使用调试构建配置。当您准备好将可执行文件发布给其他人时，或者想要测试性能时，请使用发布构建配置
    1. Debug：**调试版本，** 包含调试信息，所以 **容量比Release大很多，** 并且不进行任何优化（优化会使调试复杂化，因为源代码和生成的指令间关系会更复杂），便于程序员调试
    2. Release：**发布版本，** 不对源代码进行调试，编译时对应用程序的速度进行优化，**使得程序在代码大小和运行速度上都是最优的**

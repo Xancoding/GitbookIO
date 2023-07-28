@@ -1,6 +1,6 @@
 # 🫐 Functions and Files
 
-### 函数返回值
+## 函数返回值
 
 C++标准只定义了3种状态码的含义：0、EXIT\_SUCCESS、EXIT\_FAILURE。 0 和 EXIT\_SUCCESS 都表示程序执行成功。 EXIT\_FAILURE 表示程序没有成功执行
 
@@ -17,7 +17,7 @@ int main()
 
 如果你想最大限度地提高可移植性，你应该只使用 0 或 EXIT\_SUCCESS 来指示成功终止，或者使用 EXIT\_FAILURE 来指示不成功终止
 
-### include 头文件顺序
+## include 头文件顺序
 
 在 C++ 中，头文件的顺序通常应该遵循以下顺序：
 
@@ -32,7 +32,7 @@ The headers for each grouping should be sorted alphabetically（按字母顺序�
 
 这个顺序并不是强制的，主要取决于项目的需要和编程风格。
 
-### Header file best practices
+## Header file best practices
 
 1. 始终 include header guards
 2. 不要在头文件中定义变量和函数（全局常量是一个例外）
@@ -43,7 +43,7 @@ The headers for each grouping should be sorted alphabetically（按字母顺序�
 7. 仅 `#include` 您需要的内容（不要仅仅因为可以就包含所有内容）
 8. 不要`#include` .cpp 文件
 
-### 预处理器
+## 预处理器
 
 在编译之前，代码文件会经历一个称为翻译的阶段。翻译阶段会发生很多事情，让您的代码准备好进行编译（如果您好奇，可以在此处找到翻译阶段列表）。应用了翻译的代码文件称为翻译单元
 
@@ -53,11 +53,11 @@ The headers for each grouping should be sorted alphabetically（按字母顺序�
 
 请注意，预处理器不会以任何方式修改原始代码文件——相反，预处理器所做的所有文本更改都会在每次编译代码文件时临时发生在内存中或使用临时文件
 
-#### Includes
+### Includes
 
 当您 `#include` 一个文件时，预处理器会用 include 文件的内容替换 `#include` 指令。然后对 include 的内容进行预处理（连同文件的其余部分），然后进行编译
 
-#### Macro defines
+### Macro defines
 
 `#define` 指令可用于创建 **宏**
 
@@ -78,7 +78,7 @@ The headers for each grouping should be sorted alphabetically（按字母顺序�
 
 与带有替换文本的类对象宏不同，这种形式的宏通常被认为可以使用。
 
-#### Conditional compilation
+### Conditional compilation
 
 **条件编译预处理器指令**允许您指定在什么条件下编译或不编译。有很多不同的条件编译指令，但我们在这里只介绍目前使用最多的三个：`#ifdef`、`#ifndef` 和 `#endif`
 

@@ -32,7 +32,6 @@
   * [图解网络](https://xiaolincoding.com/network/)
   * [图解系统](https://xiaolincoding.com/os/)
 * [后端开发核心知识](https://github.com/linw7/Skill-Tree)
-* [How to Properly Use a Search Engine](https://www.instructables.com/How-to-Properly-Use-a-Search-Engine/)
 
 ## C++
 

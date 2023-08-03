@@ -26,7 +26,7 @@
   * [CSS 语言基础](https://docs.net9.org/languages/css/)
   * [JavaScript 语言基础](https://docs.net9.org/languages/javascript/)
   * [TypeScript 语言基础](https://docs.net9.org/languages/typescript/)
-  * [Rust 语言基础](https://docs.net9.org/languages/rust/)
+* [Software Engineering Course Index](https://thuse-course.github.io/course-index/)
 * [CS自学指南](https://csdiy.wiki/CS%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92/)
 * [小林 x 图解计算机基础](https://xiaolincoding.com/)
   * [图解网络](https://xiaolincoding.com/network/)

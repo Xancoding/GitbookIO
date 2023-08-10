@@ -1,7 +1,7 @@
-# Vim
+# 🐪 Vim
 
 * [第 3 讲 - 编辑器 (Vim) | The missing semester of your CS education](https://missing-semester-cn.github.io/2020/editors/)
-* [21世纪最强代码编辑器：NeoVim ——就是这些设置让它变](https://www.bilibili.com/video/BV1y4411C7pE/?spm\_id\_from=333.999.0.0\&vd\_source=ae16ff6478eb15c1b87880540263910b)[成了编辑器之鬼 【附配置与插件教程】](https://www.bilibili.com/video/BV1y4411C7pE/?spm\_id\_from=333.999.0.0\&vd\_source=ae16ff6478eb15c1b87880540263910b)
+* [21世纪最强代码编辑器：NeoVim ——就是这些设置让它变成了编辑器之鬼 【附配置与插件教程】](https://www.bilibili.com/video/BV1y4411C7pE/?spm\_id\_from=333.999.0.0\&vd\_source=ae16ff6478eb15c1b87880540263910b)
 * [**Vim 从入门到精通**](https://github.com/wsdjeg/vim-galore-zh\_cn)
 * [**LazyVim-Keymaps**](https://www.lazyvim.org/keymaps)
 * **vimtutor 是一个 Vim 安装时自带的教程 ，`vimtutor -g zh` for Chinese learner.**

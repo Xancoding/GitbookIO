@@ -22,7 +22,7 @@
 * 📖 [计算机系学生科协技能引导文档](https://docs.net9.org/)
   * [Go](https://docs.net9.org/backend/go/go/#go)
   * [C++ 语言面向对象](https://docs.net9.org/languages/c-oop/)
-  * [Python 语言基础](https://docs.net9.org/languages/python/)
+  * Finished [Python 语言基础](https://docs.net9.org/languages/python/)
   * [HTML 语言基础](https://docs.net9.org/languages/html/)
   * [CSS 语言基础](https://docs.net9.org/languages/css/)
   * [JavaScript 语言基础](https://docs.net9.org/languages/javascript/)

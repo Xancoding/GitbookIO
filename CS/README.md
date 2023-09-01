@@ -33,7 +33,6 @@
   * [图解网络](https://xiaolincoding.com/network/)
   * [图解系统](https://xiaolincoding.com/os/)
 * [后端开发核心知识](https://github.com/linw7/Skill-Tree)
-* [计算机网络通讯的【系统性】扫盲——从“基本概念”到“OSI 模型”](https://program-think.blogspot.com/2021/03/Computer-Networks-Overview.html)
 
 ## C++
 
@@ -203,6 +202,7 @@
 * [计算机网络（谢希仁版）第七版答案](https://zhuanlan.zhihu.com/p/386387918)
 * [图解网络 | 小林coding](https://xiaolincoding.com/network/)
 * [**Stanford CS144 Lab Assignment 学习笔记 | ViXbob的博客**](https://vixbob.moe/25.html)
+* [**计算机网络通讯的【系统性】扫盲——从“基本概念”到“OSI 模型”**](https://program-think.blogspot.com/2021/03/Computer-Networks-Overview.html)
 
 ***
 

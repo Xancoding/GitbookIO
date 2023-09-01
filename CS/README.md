@@ -33,6 +33,7 @@
   * [图解网络](https://xiaolincoding.com/network/)
   * [图解系统](https://xiaolincoding.com/os/)
 * [后端开发核心知识](https://github.com/linw7/Skill-Tree)
+* [计算机网络通讯的【系统性】扫盲——从“基本概念”到“OSI 模型”](https://program-think.blogspot.com/2021/03/Computer-Networks-Overview.html)
 
 ## C++
 

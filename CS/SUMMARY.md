@@ -4,4 +4,4 @@
 * [🍓 Operating System](operating-system.md)
 * [🍈 Computer Network](computer-network.md)
 * [🍒 Assambly Languages](assambly-languages.md)
-* [Software Engineering](software-engineering.md)
+* [🍑 Software Engineering](software-engineering.md)
